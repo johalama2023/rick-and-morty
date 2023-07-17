@@ -1,0 +1,115 @@
+.resident-container {
+    position: relative;
+    border: 0;
+    width: 100%;
+    max-width: 250px;
+    margin: 16px;
+    outline: none;
+    height: 550px;
+    background-color: #062226;
+    color: white;
+    margin-top: 3rem;
+    padding: 1.5px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+.resident-container:hover {
+    transform: scale(1.1);
+    box-shadow: 12px 15px 57px 2px rgba(9,145,81,0.8);
+    -webkit-box-shadow: 12px 15px 57px 2px rgba(9,145,81,0.8);
+    -moz-box-shadow: 12px 15px 57px 2px rgba(9,145,81,0.8);
+}
+.resident-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resident-header{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    transform: scale(1.02);
+}
+
+.resident-status {
+    padding: 5px 0;
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    background: #062226;
+    border-radius: 0px 12px 12px 0px;
+    color: white;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resident-circle-status {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.unknown {
+    background-color: gray;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.Alive {
+    background-color: green;
+
+}
+.resident-status-span {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.resident-container-info {
+    padding: 10px 0;
+}
+
+.resident-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+hr{
+    border: 1px solid #09915190;
+    margin-bottom: 20px;
+    
+}
+
+.resident-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.resident-item-span {
+    color: rgb(9, 145, 81);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.resident-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.resident-contain-span {
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
